@@ -22,10 +22,94 @@
   </head>
   <body>
     <div class="page">
-      <h2>Teste de fonte</h2>
-      <header class="header"></header>
-      <main class="content">
-        <section class="recipes"></section>
+      <header class="header">
+        <nav class="nav">
+          <img
+            class="nav__company-logo"
+            src="/images/logo_coffeeshop_dark.svg"
+            alt="company logo"
+          />
+
+          <ul class="nav__links">
+            <li>
+              <a href="#recipes" class="nav__link">Receitas</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <h1 class="header__title">
+          <span class="header__span-accent">Café especial</span>
+          na biblioteca Triple Peaks
+        </h1>
+
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+
+        <img
+          class="header__image"
+          src="/images/inside_coffee_shop.png"
+          alt="coffee shop image"
+        />
+
+        <div class="header__footer">
+          <ul class="header__oppening__hours">
+            <li>Horários:</li>
+            <li>Segunda a sexta (10:00 - 19:00)</li>
+            <li>Sábado a domingo (11:00 - 18:00)</li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
+      <main id="recipes" class="recipe__content">
+        <section class="main__recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipe__video">
+              <iframe
+                class="recipe__video__item"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=posLVQ3OLj7khOp0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-captions">
+                <p class="recipe__video-caption">Receita Aeropress</p>
+                <p class="recipe__video-caption">~5 min</p>
+              </div>
+            </div>
+
+            <div class="recipe__video">
+              <iframe
+                class="recipe__video__item"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=kfYa1pst_-Cjln3i"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-captions">
+                <p class="recipe__video-caption">Receita de Prensa Francesa</p>
+                <p class="recipe__video-caption">~15 min</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>
