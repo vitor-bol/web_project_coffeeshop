@@ -89,7 +89,7 @@
   justify-content: space-between;
 }
 
-.header__oppening-hours {
+.header__paragraph {
   list-style-type: none;
   font-family: "Noto Serif";
   font-style: normal;
@@ -99,7 +99,7 @@
   padding-left: 0;
 }
 
-.header__address {
+.header__paragraph {
   left: auto;
   font-family: "Inter";
   font-style: normal;
@@ -145,7 +145,7 @@
   justify-content: center;
 }
 
-.recipe__video {
+.recipes__video-item {
   position: relative;
 }
 
