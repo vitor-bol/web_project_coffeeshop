@@ -109,7 +109,7 @@
   color: #838383;
 }
 
-.content {
+.recipes {
   background-color: #0a2850;
   background-image: url(../images/background_recipes.svg);
   background-position: center;
@@ -249,6 +249,6 @@
   flex-direction: row;
 }
 
-.fieldset__form {
+.fieldset__reservation {
   border: none;
 }
