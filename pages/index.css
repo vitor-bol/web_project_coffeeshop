@@ -173,6 +173,10 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 100px 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .reservation__title {
   font-family: "Inter";
@@ -180,13 +184,13 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  justify-self: center;
+  margin: 0 auto 80px;
 }
 
 .reservation__form {
   max-width: 385px;
   background-color: transparent;
-  margin: 80px auto;
+  margin: 0 auto;
   border: 0;
 }
 
@@ -249,6 +253,6 @@
   flex-direction: row;
 }
 
-.fieldset__reservation {
+.form__fieldset {
   border: none;
 }
