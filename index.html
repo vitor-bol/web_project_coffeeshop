@@ -10,7 +10,6 @@
       content="project 4 coffee shop with HTML and CSS"
     />
     <title>My Coffee Shop</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="favicon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
@@ -38,7 +37,7 @@
               <a href="#reservation" class="nav__link">Reservar uma mesa</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Contatos</a>
+              <a href="#footer" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -170,7 +169,40 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer footer__content" id="footer">
+        <div class="footer__column">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="company logo"
+            class="footer__logo"
+          />
+          <div class="footer__column__content__social">
+            <h3 class="footer__column__heading">Mídia social</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="facebook logo"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="instagram logo"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__copyright">© 2025 Vitor Finardi Bolson</p>
+      </footer>
     </div>
   </body>
 </html>
