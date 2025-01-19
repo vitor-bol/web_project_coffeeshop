@@ -11,20 +11,20 @@
   z-index: 4;
 }
 
-.footer__column {
+.footer__content {
   display: flex;
 }
 
-.footer__column__content__social {
+.footer__social {
   margin-left: auto;
 }
-.footer__list {
+.footer__social__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.footer__column__heading {
+.footer__social__heading {
   margin-bottom: 20px;
   margin-top: 0;
   font-family: "Inter";
@@ -52,7 +52,7 @@
   font-size: 16px;
   line-height: 20px;
 }
-.footer__list-item {
+.footer__social__list-item {
   margin-bottom: 16px;
 }
 
