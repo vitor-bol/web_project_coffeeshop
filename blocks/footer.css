@@ -65,9 +65,13 @@
   font-size: 16px;
   line-height: 20px;
   color: white;
+  margin-top: 108px;
 }
 
 .footer__social-link:hover {
+  color: #c1c1c1;
+}
+.footer__social-link:focus {
   color: #c1c1c1;
 }
 
